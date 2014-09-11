@@ -221,8 +221,7 @@
       list-style-type: none; }
       #navigation_bar li a {
         display: inline-block;
-        height: 24px;
-        width: 24px;
+        padding: 5px;
         line-height: 22px;
         text-align: center;
         font-family: "Merriweather", Georgia, serif;
@@ -506,5 +505,20 @@
 
   .button {
     display: none; } }
+input[type=email] {
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 18px;
+  width: 300px; }
+
+input[type=submit] {
+  padding: 5px 15px;
+  background: #ccc;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
 
 /*# sourceMappingURL=styles.css.map */

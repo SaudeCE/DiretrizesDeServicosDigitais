@@ -11,6 +11,8 @@
 // $pacific_blue:        #00af41;
 // $miami_vice_blue:     #00742b;
 
+// nat - fec14f
+
 // laranja
 $atlantic_blue:       #ee9228;
 $pacific_blue:        #fff;
@@ -271,8 +273,9 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
       a {
         display: inline-block;
-        height: 24px;
-        width: 24px;
+        padding: 5px;
+        // height: 24px;
+        // width: 24px;
         line-height: 22px;
         text-align: center;
         font-family: $serif;
@@ -599,3 +602,20 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 }
 
+input[type=email] {
+  padding:5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 18px;
+  width: 300px;
+}
+
+input[type=submit] {
+  padding:5px 15px;
+  background:#ccc;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
