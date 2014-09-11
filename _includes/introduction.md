@@ -1,5 +1,7 @@
-# U.S. Digital Services Playbook
+# Programa Brasil
 
-The American people expect to interact with government through digital channels such as websites, email, and mobile applications. By building better digital services that meet the needs of the people that use our services, we can make the delivery of our policy and programs more effective.   
+A sociedade brasileira espera acompanhar e participar de seus governos através de canais digitais como web sites, aplicativos de celular e redes sociais. Construindo melhores serviços digitais que atendam a necessidade das pessoas que usam esses serviços, políticas e programas podem ser criados e entregues de maneira mais eficaz.
 
-Today, too many of our digital services projects do not work well, are delivered late, or are over budget. To increase the success rate of these projects, the U.S. Government needs a new approach. We created a playbook of 13 key “plays” drawn from successful best practices from the private sector and government that, if followed together, will help government build effective digital services.
+Hoje, dos poucos projetos que existem de serviços digitais, a maioria não funciona bem, demoram para ser entregues ou estão com orçamento superfaturados. Para melhorar a taxa de sucesso desses serviços, os governos precisam de uma nova abordagem.
+
+Nós criamos esse guia com regras copiadas de iniciativas bem sucedidas no setor privado, governamental e terceiro setor, que, se unidos, irão ajudar o governo a construir serviços digitais eficientes.
