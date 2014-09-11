@@ -14,9 +14,9 @@
 // nat - fec14f
 
 // laranja
-$atlantic_blue:       #ee9228;
+$atlantic_blue:       #e67e22;
 $pacific_blue:        #fff;
-$miami_vice_blue:     #b7680f;
+$miami_vice_blue:     #d35400;
 
 $white:               #fff;
 $black:               #333;
@@ -438,6 +438,10 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
         column-gap: 00px;
       }
     }
+  }
+
+  #contribute_index {
+    background: #f39c12;
   }
 
   #experience_index p,
