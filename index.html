@@ -21,6 +21,8 @@
         {% for play in site.plays %}
           <li class="play_square"><a href="#play{{ play.id }}" title="Ver diretriz {{ play.id }}: {{ play.title }}">{{ play.id }}</a></li>
         {% endfor %}
+          <li class="play_square"><a href="#experience_anchor" title="Ver experiências">S</a></li>
+          <li class="play_square"><a href="#contribute_anchor" title="Ver contribua">C</a></li>
       </ul>
       <div id="menu_icon">
         <a href="#plays_index_anchor" title="Voltar ao índice"></a>
@@ -35,10 +37,13 @@
       {% capture introduction %}{% include introduction.md %}{% endcapture %}
       {{ introduction | markdownify }}
       <div class="button">
-        <a href="#plays_index_anchor" title="Vá para as diretrizes">VEJA AS DIRETRIZES</a>
+        <a href="#plays_index_anchor" title="Vá para as diretrizes">DIRETRIZES</a>
       </div>
       <div class="button">
-        <a href="https://github.com/whitehouse/playbook#readme" title="Vá para o Github para melhorar este conteúdo.">AJUDE A MELHORAR ESTE CONTEÚDO</a>
+        <a href="#experience_anchor" title="Vá para as experiências">EXPERIÊNCIAS</a>
+      </div>
+      <div class="button">
+        <a href="#contribute_anchor" title="Vá para a contribuição.">CONTRIBUA</a>
       </div>
     </div>
   </div>
@@ -73,6 +78,34 @@
       {{ play.output }}
     </div>
   {% endfor %}
+</div>
+
+<div id="experience_index">
+  <div class="outer_container">
+    <div class="inner_container">
+      <a class="anchor_offset" id="experience_anchor"></a>
+      <h3>EXPERIÊNCIAS</h3>
+      <div class="columns">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quasi voluptatibus saepe, itaque odio et eaque fuga, deserunt cumque rem earum temporibus laudantium nulla numquam adipisci reiciendis. Consequatur, dolor, repellat!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quasi voluptatibus saepe, itaque odio et eaque fuga, deserunt cumque rem earum temporibus laudantium nulla numquam adipisci reiciendis. Consequatur, dolor, repellat!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quasi voluptatibus saepe, itaque odio et eaque fuga, deserunt cumque rem earum temporibus laudantium nulla numquam adipisci reiciendis. Consequatur, dolor, repellat!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="contribute_index">
+  <div class="outer_container">
+    <div class="inner_container">
+      <a class="anchor_offset" id="contribute_anchor"></a>
+      <h3>CONTRIBUA</h3>
+      <div class="columns">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quasi voluptatibus saepe, itaque odio et eaque fuga, deserunt cumque rem earum temporibus laudantium nulla numquam adipisci reiciendis. Consequatur, dolor, repellat!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quasi voluptatibus saepe, itaque odio et eaque fuga, deserunt cumque rem earum temporibus laudantium nulla numquam adipisci reiciendis. Consequatur, dolor, repellat!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quasi voluptatibus saepe, itaque odio et eaque fuga, deserunt cumque rem earum temporibus laudantium nulla numquam adipisci reiciendis. Consequatur, dolor, repellat!</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script src='{{site.baseurl}}/assets/js/jquery-1.11.1.min.js'></script>
