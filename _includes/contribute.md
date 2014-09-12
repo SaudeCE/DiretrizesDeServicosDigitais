@@ -12,4 +12,6 @@ Outros objetivos, são:
 
 - Importar a eficiência da Web nas infraestruturas do governo, tornando o trabalho no serviço público mais divertido e criativo
 
+Esse conteúdo está hospedado no [github](http://github.com/nucleo-digital/programa-brasil "Vá para página do repositório e faça sua contribuição.") e pode ser alterado por qualquer um, venha fazer sua contribuição.
+
 <!--p>Para fazer parte desta rede, entre com seu e-mail:</p-->
