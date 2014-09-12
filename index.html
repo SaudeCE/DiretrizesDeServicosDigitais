@@ -82,8 +82,8 @@
   <div class="outer_container">
     <div class="inner_container">
       <a class="anchor_offset" id="experience_anchor"></a>
-      <h3>EXPERIÊNCIAS</h3>
-        <p>Em breve...</p>
+      {% capture experience %}{% include experience.md %}{% endcapture %}
+      {{ experience | markdownify }}
     </div>
   </div>
 </div>
@@ -92,16 +92,8 @@
   <div class="outer_container">
     <div class="inner_container">
       <a class="anchor_offset" id="contribute_anchor"></a>
-      <h3>CONTRIBUA</h3>
-
-      <p>O Programa Brasil é um remix de iniciativas que vem acontecendo no Brasil e no mundo nos últimos dez anos que propõem a atualização no governo para o século 21. Acreditamos em um governo que possa ser trabalhado pelas pessoas, para as pessoas. Para tanto, nos propomos a organizar uma rede de profissionais de tecnologia e design para trabalhar nos governos do Brasil, produzindo aplicações de código aberto e promovendo abertura, participação e eficiência, gerando uma rede multisetorial de praticantes da inovação cívica e uma plataforma para "civic hacking".</p>
-      <p>Outros objetivos, são:</p>
-      <p>- Encorajar e empoderar cidadãos e cidadãs à terem uma participação política</p>
-      <p>- Facilitar a colaboração entre gestores públicos através de abordagens com visão de futuro para resolver problemas da cidade</p>
-      <p>- Apoiar empreendedores e startups com consciência cívica</p>
-      <p>- Importar a eficiência da Web nas infraestruturas do governo, tornando o trabalho no serviço público mais divertido e criativo</p>
-      <!--p>Para fazer parte desta rede, entre com seu e-mail:</p-->
-
+      {% capture contribute %}{% include contribute.md %}{% endcapture %}
+      {{ contribute | markdownify }}
     </div>
   </div>
 </div>
