@@ -444,10 +444,17 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     background: #f39c12;
   }
 
-  #experience_index p,
-  #contribute_index p {
-    font-family: $serif;
-    color: $white;
+  #experience_index,
+  #contribute_index {
+    p {
+      font-family: $serif;
+      color: $white;
+    }
+    ul {
+      li {
+        font-size: 16px;
+      }
+    }
   }
 
   #plays, #techfar {

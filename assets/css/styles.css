@@ -379,6 +379,9 @@
   #contribute_index p {
     font-family: "Merriweather", Georgia, serif;
     color: #fff; }
+  #experience_index ul li,
+  #contribute_index ul li {
+    font-size: 16px; }
 
   #plays h2, #plays h4, #techfar h2, #techfar h4 {
     float: left;
