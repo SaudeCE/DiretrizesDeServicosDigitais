@@ -1,11 +1,8 @@
 ## About This Project
 
-The American people expect to interact with government through digital channels such as websites, email, and mobile applications. By building better digital services that meet the needs of the people that use our services, we can make the delivery of our policy and programs more effective.
+O Programa Brasil é um remix de iniciativas que vem acontecendo no Brasil e no mundo nos últimos dez anos que propõem a atualização no governo para o século 21. Acreditamos em um governo que possa ser trabalhado pelas pessoas, para as pessoas. 
 
-One way to advance smarter digital service delivery is by putting the right processes and practices in place to drive outcomes and accountability and allow people and companies to do their best work.  The Digital Services Playbook and the TechFAR Handbook document these best practices and processes: 
-
-- [**The Digital Services Playbook**](http://playbook.cio.gov "Link to the Digital Services Playbook") identifies a series of “plays” drawn from successful best practices from the private sector and government that, if followed together, will help government build effective digital services.  The plays outline an approach to delivering services that increases our ability to be flexible, iterative and, most importantly, to focus on the needs of the people that use our services.
-- [**The TechFAR Handbook**](http://playbook.cio.gov/techfar "Link to the TechFAR Handbook") highlights the flexibilities in the Federal Acquisition Regulation (FAR) that can help agencies implement “plays” from the Playbook that would be accomplished with acquisition support – with a particular focus on how to use contractors to support an iterative, customer-driven software development process, as is routinely done in the private sector.
+Para tanto, nos propomos a organizar uma rede de profissionais de tecnologia e design para trabalhar nos governos do Brasil, produzindo aplicações de código aberto e promovendo abertura, participação e eficiência, gerando uma rede multisetorial de praticantes da inovação cívica e uma plataforma para "civic hacking".
 
 ## We Want Your Feedback
 We encourage your feedback and suggestions on these documents. Content and feature suggestions and discussions are welcome via [GitHub Issues](https://github.com/WhiteHouse/playbook/issues). You may also propose changes to the content directly by submitting a [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests").
