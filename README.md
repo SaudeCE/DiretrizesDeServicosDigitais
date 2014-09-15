@@ -1,4 +1,4 @@
-## About This Project
+## Sobre este projeto
 
 O Programa Brasil é um remix de iniciativas que vem acontecendo no Brasil e no mundo nos últimos dez anos que propõem a atualização no governo para o século 21. Acreditamos em um governo que possa ser trabalhado pelas pessoas, para as pessoas. 
 
