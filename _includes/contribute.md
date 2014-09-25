@@ -1,6 +1,6 @@
 ### CONTRIBUA
 
-O Programa Brasil é um remix de iniciativas que vem acontecendo no Brasil e no mundo nos últimos dez anos que propõem a atualização no governo para o século 21. Acreditamos em um governo que possa ser trabalhado pelas pessoas, para as pessoas. Para tanto, nos propomos a organizar uma rede de profissionais de tecnologia e design para trabalhar nos governos do Brasil, produzindo aplicações de código aberto e promovendo abertura, participação e eficiência, gerando uma rede multisetorial de praticantes da inovação cívica e uma plataforma para "civic hacking".
+O Programa Brasil é um remix de iniciativas que vem acontecendo no Brasil e no mundo nos últimos dez anos que propõem a atualização no governo para o século 21. Acreditamos em um governo que possa ser trabalhado pelas pessoas, para as pessoas. Para tanto, nos propomos a organizar uma rede de profissionais de tecnologia e design para trabalhar nos governos do Brasil, produzindo aplicações de código aberto e promovendo abertura, participação e eficiência, gerando uma rede multissetorial de praticantes da inovação cívica e uma plataforma para "civic hacking".
 
 Outros objetivos, são:
 
