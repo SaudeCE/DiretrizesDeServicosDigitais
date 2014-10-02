@@ -18,13 +18,13 @@
     <div class="inner_container">
       <a href="#introduction"><h4>Programa Brasil</h4></a>
       <ul class="nav">
-          <li class="play_square"><a href="#plays_index_anchor" title="Ver diretrizes">Premissas e Diretrizes</a></li>
-          <li class="play_square"><a href="#experience_anchor" title="Ver experiências">Experiências</a></li>
-          <li class="play_square"><a href="#contribute_anchor" title="Ver contribua">Contribua</a></li>
+        {% for play in site.plays %}
+          <li class="play_square"><a href="#play{{ play.id }}" title="Ver diretriz {{ play.id }}: {{ play.title }}">{{ play.id }}</a></li>
+        {% endfor %}
       </ul>
-<!--       <div id="menu_icon">
+      <div id="menu_icon">
         <a href="#plays_index_anchor" title="Voltar ao índice"></a>
-      </div> -->
+      </div>
     </div>
   </div>
 </div>
@@ -35,13 +35,10 @@
       {% capture introduction %}{% include introduction.md %}{% endcapture %}
       {{ introduction | markdownify }}
       <div class="button">
-        <a href="#assumptions_index_anchor" title="Vá para as diretrizes">PREMISSAS E DIRETRIZES</a>
+        <a href="#plays_index_anchor" title="Vá para as diretrizes">VEJA AS DIRETRIZES</a>
       </div>
       <div class="button">
-        <a href="#experience_anchor" title="Vá para as experiências">EXPERIÊNCIAS</a>
-      </div>
-      <div class="button">
-        <a href="#contribute_anchor" title="Vá para a contribuição.">CONTRIBUA</a>
+        <a href="https://github.com/whitehouse/playbook#readme" title="Vá para o Github para melhorar este conteúdo.">AJUDE A MELHORAR ESTE CONTEÚDO</a>
       </div>
     </div>
   </div>
@@ -50,23 +47,8 @@
 <div id="plays_index">
   <div class="outer_container">
     <div class="inner_container">
-      <a class="anchor_offset" id="assumptions_index_anchor"></a>
-      <h3>PREMISSAS</h3>
-      <div class="columns">
-        <ol>
-        {% for assumption in site.assumptions %}
-          <li><a href="#assumption{{ assumption.id }}" title="Vá para a Diretriz {{ assumption.id }}">{{ assumption.title }}</a></li>
-        {% endfor %}
-        </ol>
-      </div>
-      <div class="button">
-        <a href="#assumption1" title="Vá para ver Mais Detalhes">MAIS DETALHES</a>
-      </div>
-    </div>
-
-    <div class="inner_container">
       <a class="anchor_offset" id="plays_index_anchor"></a>
-      <h3>DIRETRIZES</h3>
+      <h3>DIRETRIZES SERVIÇO DIGITAL</h3>
       <div class="columns">
         <ol>
         {% for play in site.plays %}
@@ -81,18 +63,6 @@
   </div>
 </div>
 
-<div id="assumptions" class="outer_container">
-  {% for assumption in site.assumptions %}
-    <div class="inner_container">
-      <a class="anchor_offset" id="assumption{{ assumption.id }}"></a>
-      <h5>PREMISSA {{ assumption.id }}</h5>
-      <h2>{{ assumption.title }}</h2>
-
-      {{ assumption.output }}
-    </div>
-  {% endfor %}
-</div>
-
 <div id="plays" class="outer_container">
   {% for play in site.plays %}
     <div class="inner_container">
@@ -105,38 +75,9 @@
   {% endfor %}
 </div>
 
-<div id="experience_index">
-  <div class="outer_container">
-    <div class="inner_container">
-      <a class="anchor_offset" id="experience_anchor"></a>
-      {% capture experience %}{% include experience.md %}{% endcapture %}
-      {{ experience | markdownify }}
-    </div>
-  </div>
-</div>
-
-<div id="contribute_index">
-  <div class="outer_container">
-    <div class="inner_container">
-      <a class="anchor_offset" id="contribute_anchor"></a>
-      {% capture contribute %}{% include contribute.md %}{% endcapture %}
-      {{ contribute | markdownify }}
-    </div>
-  </div>
-</div>
-
 <script src='{{site.baseurl}}/assets/js/jquery-1.11.1.min.js'></script>
 <script src='{{site.baseurl}}/assets/js/scrollspy.js'></script>
 <script src='{{site.baseurl}}/assets/js/site.js'></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-54689648-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+<script id="_fed_an_js_tag" type="text/javascript" src="{{site.baseurl}}/assets/js/federated-analytics.all.min.js?agency=GSA&sub-agency=OGP"></script>
 </body>
 </html>

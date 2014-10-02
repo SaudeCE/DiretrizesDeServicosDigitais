@@ -2,22 +2,9 @@
 @import "neat/neat";
 
 // Colors
-// $atlantic_blue:       #36435a;
-// $pacific_blue:        #3A96B7;
-// $miami_vice_blue:     #3A96B7;
-
-// verde
-// $atlantic_blue:       #009b3a;
-// $pacific_blue:        #00af41;
-// $miami_vice_blue:     #00742b;
-
-// nat - fec14f
-
-// laranja
-$atlantic_blue:       #e67e22;
-$pacific_blue:        #fff;
-$miami_vice_blue:     #d35400;
-
+$atlantic_blue:       #36435a;
+$pacific_blue:        #3A96B7;
+$miami_vice_blue:     #3A96B7;
 $white:               #fff;
 $black:               #333;
 $gray:                #4D4D4D;
@@ -147,7 +134,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   .button {
     font-size: inherit;
     font-family: $sans-serif;
-    display: inline-block;
+    display: inline-block;  
     margin-top: 40px;
     margin-right: 20px;
     a {
@@ -273,9 +260,8 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
       a {
         display: inline-block;
-        padding: 5px;
-        // height: 24px;
-        // width: 24px;
+        height: 24px;
+        width: 24px;
         line-height: 22px;
         text-align: center;
         font-family: $serif;
@@ -323,7 +309,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
 
     @include media($slimmer) {
-      ul {
+      ul { 
         display: none;
       }
       #menu_icon {
@@ -339,7 +325,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     visibility: visible;
     display: block;
     height: 60px;
-
+    
     @include media($mobile) {
       height: 48px;
       visibility: visible;
@@ -347,21 +333,19 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
   }
 
-  #experience_index,
-  #contribute_index,
   #plays_index {
     background: $miami_vice_blue;
     color: $black;
     padding-bottom: 60px;
 
 
-    h3 {
+    h3 { 
       color: $white;
       font-size: 23px;
       font-weight: normal;
       margin-bottom: 38px;
     }
-
+    
     .columns {
       -moz-column-count: 2;
       -moz-column-gap: 20px;
@@ -388,14 +372,14 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
         color: $black;
       }
     }
-
+    
     ol, li {
       color: $white;
       font-size: 20px;
       font-weight: lighter;
       margin-top: 0;
     }
-
+    
     .button {
       a {
         color: white;
@@ -436,23 +420,6 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
         -webkit-column-gap: 0px;
         column-count: 1;
         column-gap: 00px;
-      }
-    }
-  }
-
-  #contribute_index {
-    background: #f39c12;
-  }
-
-  #experience_index,
-  #contribute_index {
-    p {
-      font-family: $serif;
-      color: $white;
-    }
-    ul {
-      li {
-        font-size: 16px;
       }
     }
   }
@@ -586,7 +553,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   ol, ul {
     width: 80%;
   }
-
+  
   ol {
     list-style-type: square;
   }
@@ -613,20 +580,3 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 }
 
-input[type=email] {
-  padding:5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  font-size: 16px;
-  line-height: 18px;
-  width: 300px;
-}
-
-input[type=submit] {
-  padding:5px 15px;
-  background:#ccc;
-  border:0 none;
-  cursor:pointer;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}

@@ -5,13 +5,13 @@
 
 @media screen {
   body {
-    background: #fff;
+    background: white;
     font-family: "Merriweather", Georgia, serif;
     margin: 0;
     line-height: 28px; }
 
   body#techfar_landing_page {
-    background: #e67e22; }
+    background: #36435a; }
 
   a {
     color: inherit;
@@ -33,12 +33,12 @@
     list-style-position: inside; }
     ol li, ul li {
       margin: 1em 0;
-      color: #333; }
+      color: #333333; }
 
   h1 {
     font-size: 50px;
     font-weight: 300;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid white;
     padding-bottom: 0.25em;
     margin-bottom: 20px;
     line-height: 65px; } }
@@ -54,7 +54,7 @@
     line-height: 65px;
     font-weight: 300;
     margin-top: 0;
-    color: #333; } }
+    color: #333333; } }
   @media screen and (min-width: 0px) and (max-width: 640px) {
     h2 {
       font-size: 32px;
@@ -68,18 +68,18 @@
   h4 {
     font-family: "Merriweather", Georgia, serif;
     font-size: 18px;
-    color: #d35400;
+    color: #3a96b7;
     margin-bottom: 0; }
 
   h5 {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     margin-bottom: 15px;
-    color: #333;
+    color: #333333;
     font-weight: lighter; }
 
   p {
-    color: #333; }
+    color: #333333; }
 
   .outer_container {
     max-width: 68em;
@@ -133,12 +133,12 @@
       display: inline-block;
       padding: 10px 30px;
       text-decoration: none;
-      border: 1px solid #fff;
+      border: 1px solid white;
       min-width: 172px;
       text-align: center; }
     .button a:hover {
-      background: #fff;
-      color: #e67e22;
+      background: white;
+      color: #36435a;
       text-decoration: none; } }
   @media screen and (min-width: 0px) and (max-width: 640px) {
     .button {
@@ -151,19 +151,19 @@
   #alpha_tag {
     float: right;
     background: green;
-    color: #fff;
+    color: white;
     padding: 10px;
     font-family: "Open Sans", sans-serif; }
 
   #introduction {
-    background: #e67e22;
-    color: #fff;
+    background: #36435a;
+    color: white;
     padding-bottom: 60px; }
     #introduction a {
       text-decoration: underline; }
     #introduction a:hover {
-      background: #fff;
-      color: #e67e22; }
+      background: white;
+      color: #36435a; }
     #introduction .button a {
       text-decoration: none; }
     #introduction p {
@@ -173,7 +173,7 @@
       line-height: 38px;
       margin-top: 40px;
       font-weight: lighter;
-      color: #fff; }
+      color: white; }
     #introduction p.download_links {
       font-size: 16px; } }
   @media screen and (min-width: 0px) and (max-width: 640px) {
@@ -191,8 +191,8 @@
     position: fixed;
     width: 100%;
     height: 0;
-    background: #e67e22;
-    color: #fff;
+    background: #36435a;
+    color: white;
     font-family: "Merriweather", Georgia, serif; }
     #navigation_bar .outer_container {
       padding: 0 40px; }
@@ -200,7 +200,7 @@
       padding: 20px 0;
       margin-top: 0;
       font-size: 20px;
-      color: #fff;
+      color: white;
       font-weight: lighter;
       line-height: 20px;
       display: inline-block; }
@@ -212,8 +212,8 @@
       padding: 0;
       list-style-position: outside; }
     #navigation_bar .active a {
-      background: #d35400;
-      color: #fff;
+      background: #3a96b7;
+      color: white;
       text-decoration: none; }
     #navigation_bar li {
       display: inline;
@@ -221,16 +221,17 @@
       list-style-type: none; }
       #navigation_bar li a {
         display: inline-block;
-        padding: 5px;
+        height: 24px;
+        width: 24px;
         line-height: 22px;
         text-align: center;
         font-family: "Merriweather", Georgia, serif;
         font-weight: lighter;
-        color: #fff;
-        border: 1px solid #fff; }
+        color: white;
+        border: 1px solid #3a96b7; }
       #navigation_bar li a:hover {
-        background: #d35400;
-        color: #fff;
+        background: #3a96b7;
+        color: white;
         text-decoration: none; }
     #navigation_bar #menu_icon {
       display: none;
@@ -276,21 +277,15 @@
       display: block; } }
 
 @media screen {
-  #experience_index,
-  #contribute_index,
   #plays_index {
-    background: #d35400;
-    color: #333;
+    background: #3a96b7;
+    color: #333333;
     padding-bottom: 60px; }
-    #experience_index h3,
-    #contribute_index h3,
     #plays_index h3 {
-      color: #fff;
+      color: white;
       font-size: 23px;
       font-weight: normal;
       margin-bottom: 38px; }
-    #experience_index .columns,
-    #contribute_index .columns,
     #plays_index .columns {
       -moz-column-count: 2;
       -moz-column-gap: 20px;
@@ -298,61 +293,37 @@
       -webkit-column-gap: 20px;
       column-count: 2;
       column-gap: 20px; }
-    #experience_index ol,
-    #contribute_index ol,
     #plays_index ol {
       list-style-position: inside;
       padding-left: 0px;
       margin-top: 0px; }
-      #experience_index ol a,
-      #contribute_index ol a,
       #plays_index ol a {
         vertical-align: top;
-        color: #fff;
+        color: white;
         margin-top: 0;
         display: inline-block;
         width: 85%; }
-      #experience_index ol a:hover,
-      #contribute_index ol a:hover,
       #plays_index ol a:hover {
-        color: #333; }
-    #experience_index ol, #experience_index li,
-    #contribute_index ol,
-    #contribute_index li,
-    #plays_index ol,
-    #plays_index li {
-      color: #fff;
+        color: #333333; }
+    #plays_index ol, #plays_index li {
+      color: white;
       font-size: 20px;
       font-weight: lighter;
       margin-top: 0; }
-    #experience_index .button a,
-    #contribute_index .button a,
     #plays_index .button a {
       color: white; }
-    #experience_index .button a:hover,
-    #contribute_index .button a:hover,
     #plays_index .button a:hover {
-      color: #333; } }
+      color: #333333; } }
   @media screen and (min-width: 0px) and (max-width: 640px) {
-    #experience_index,
-    #contribute_index,
     #plays_index {
       padding-bottom: 20px; }
-      #experience_index h3,
-      #contribute_index h3,
       #plays_index h3 {
         font-size: 18px;
         margin-bottom: 20px; }
-      #experience_index ol, #experience_index li,
-      #contribute_index ol,
-      #contribute_index li,
-      #plays_index ol,
-      #plays_index li {
+      #plays_index ol, #plays_index li {
         font-size: 16px;
         line-height: 24px; } }
   @media screen and (min-width: 641px) and (max-width: 980px) {
-    #experience_index .columns,
-    #contribute_index .columns,
     #plays_index .columns {
       -moz-column-count: 1;
       -moz-column-gap: 0px;
@@ -361,8 +332,6 @@
       column-count: 1;
       column-gap: 00px; } }
   @media screen and (min-width: 0px) and (max-width: 640px) {
-    #experience_index .columns,
-    #contribute_index .columns,
     #plays_index .columns {
       -moz-column-count: 1;
       -moz-column-gap: 0px;
@@ -372,17 +341,6 @@
       column-gap: 00px; } }
 
 @media screen {
-  #contribute_index {
-    background: #f39c12; }
-
-  #experience_index p,
-  #contribute_index p {
-    font-family: "Merriweather", Georgia, serif;
-    color: #fff; }
-  #experience_index ul li,
-  #contribute_index ul li {
-    font-size: 16px; }
-
   #plays h2, #plays h4, #techfar h2, #techfar h4 {
     float: left;
     display: block;
@@ -392,7 +350,7 @@
       margin-right: 0; }
   #plays h4, #techfar h4 {
     margin-top: 0px;
-    color: #e67e22; }
+    color: #36435a; }
   #plays h2, #techfar h2 {
     margin-bottom: 24px; }
   #plays h5, #techfar h5 {
@@ -423,12 +381,12 @@
   #plays ul, #techfar ul {
     list-style-image: url("../images/bullet-circle.svg"); }
   #plays a, #techfar a {
-    color: #e67e22;
+    color: #36435a;
     text-decoration: underline;
     display: inline-block; }
   #plays a:hover, #techfar a:hover {
-    color: #fff;
-    background: #e67e22; } }
+    color: white;
+    background: #36435a; } }
 @media screen and (min-width: 0px) and (max-width: 640px) {
   #plays p, #techfar p {
     font-size: 16px;
@@ -511,20 +469,3 @@
 
   .button {
     display: none; } }
-input[type=email] {
-  padding: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  font-size: 16px;
-  line-height: 18px;
-  width: 300px; }
-
-input[type=submit] {
-  padding: 5px 15px;
-  background: #ccc;
-  border: 0 none;
-  cursor: pointer;
-  -webkit-border-radius: 5px;
-  border-radius: 5px; }
-
-/*# sourceMappingURL=styles.css.map */

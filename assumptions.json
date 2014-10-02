@@ -1,4 +1,0 @@
----
----
-
-{{ site.assumptions | map:"to_liquid" | jsonify }}
