@@ -2,6 +2,7 @@ permalink: pretty
 markdown: rdiscount
 highlighter: pygments
 #url: http://programabrasil.org.br
+github: nucleo-digital
 
 collections:
   - plays
