@@ -1,7 +1,7 @@
 permalink: pretty
 markdown: rdiscount
 highlighter: pygments
-url: http://programabrasil.org.br
+#url: http://programabrasil.org.br
 
 collections:
   - plays

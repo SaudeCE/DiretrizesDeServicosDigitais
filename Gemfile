@@ -1,5 +1,12 @@
 source 'https://rubygems.org'
-gem 'github-pages'
-gem 'sass'
-gem 'bourbon'
-gem 'neat'
+
+# require 'jekyll'
+# require 'jekyll-sass-converter'
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+
+gem 'github-pages', versions['github-pages']
+
+#gem 'bourbon'
+#gem 'neat'
