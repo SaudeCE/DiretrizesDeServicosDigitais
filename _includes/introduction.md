@@ -4,4 +4,4 @@ A sociedade brasileira espera acompanhar e participar de seus governos através 
 
 Hoje, dos poucos projetos que existem de serviços digitais, a maioria não funciona bem, demora para ser entregue ou está com orçamento superfaturado. Para melhorar a taxa de sucesso desses serviços, os governos precisam de uma nova abordagem.
 
-Nós criamos esse guia com regras copiadas de iniciativas bem sucedidas no setor privado, governamental e terceiro setor, que, se unidos, irão ajudar o governo a construir serviços digitais eficientes.
+Nós criamos esse guia com regras copiadas de iniciativas bem sucedidas no setor privado, governamental e terceiro setor, que, se unidas, irão ajudar o governo a construir serviços digitais eficientes.
