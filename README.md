@@ -9,17 +9,17 @@ Você não precisa instalar nenhum software para sugerir uma mudança. Para prop
 
 ### Testando código localmente
 
-To run the site locally on your own computer (most helpful for previewing your own changes), you will need to install Jekyll and other dependencies:
+Para fazer o site rodar no seu próprio computador (o que é útil caso queira visualizar suas próprias alterações) você precisará instalar o Jekyll e outras dependências: 
 
-If you don't already have Ruby and Bundler installed, follow [the first two steps in these Jekyll installation instructions](https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll "Installation instructions for Jekyll").
+Se você ainda não tem o Ruby ou Bundler instalado, siga [as primeiras duas instruções nesse manual de instalação do Jekyll] (https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll "Instruções de Instalação do Jekyll").
 
-Next, [fork this repository](http://help.github.com/fork-a-repo/ "Instructions for Forking Your Repository") and clone it on your computer.
+Depois, dê um [fork nesse repositório] (http://help.github.com/fork-a-repo/ "Instruções para dar Fork em um Repositório") e clona-o no seu computador.
 
-Navigate to the folder on your computer, and run the command `$ bundle install` at the command line prompt.
+Acesse a pasta no seu computador e execute o comando `$ bundle install` na linha de comando.
 
-To run the site locally, run `jekyll serve --watch`, then visit `http://localhost:4000/` in your browser to preview the site.
+Para rodar o site localmente, execute `jekyll serve --watch`, e acesse o endereço `http://localhost:4000/` no seu browser para visualização o site.
 
 ## Licença
-As a work of the United States Government, this project is in the public domain within the United States.
+Esse trabalho do governo dos Estados Unidos está como domínio público dentro dos Estados Unidos.
 
-Additionally, we waive copyright and related rights in the work worldwide through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+Ademais, nós abrimos mão dos direitos autorais e direitos relacionados desse trabalho no mundo todo através do [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
