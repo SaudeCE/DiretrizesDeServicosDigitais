@@ -1,11 +1,11 @@
 ## Sobre este projeto
 
-Fork-tradução do playbooutilizado pela Casa Branca
+Tradução do playbook de Serviços Digitais de Governo utilizado pela Casa Branca
 
-## Nósqueremos ouvir você
-We encourage your feedback and suggestions on these documents. Content and feature suggestions and discussions are welcome via [GitHub Issues](https://github.com/WhiteHouse/playbook/issues). You may also propose changes to the content directly by submitting a [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests").
+## Nós queremos ouvir você
+Encorajamos que você comente e faça sugestões nesses documentos. Sugestões e discussão sobre o conteúdo e suas funcionalidades são bem-vindos através do [GitHub Issues](https://github.com/nucleo-digital/playbook-br/issues). Você pode também propor mudanças no conteúdo diretamente através de um pull request [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests").
 
-You don't need to install any software to suggest a change. To propose a change from your browser, [select a play in the `_plays` folder](https://github.com/WhiteHouse/playbook/tree/gh-pages/_plays "Link to the Plays Markdown files"), or open the [TechFAR file](https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md "Link to the TechFAR Markdown File"). You can use Github's in-browser editor to edit files and submit a "pull request" for your changes to be merged into the document. 
+Você não precisa instalar nenhum software para sugerir uma mudança. Para propor uma mudança pelo  browser, selecione 'play' no 'plays' folder You don't need to install any software to suggest a change. To propose a change from your browser, [select a play in the `_plays` folder](https://github.com/nucleo-digital/playbook-br/tree/gh-pages/_plays "Link to the Plays Markdown files"). Você pode usar o editor do GitHub para editar pastas e enviar um "pull request" para que as suas mudanças sejam aceitas no documento.
 
 ### Testando código localmente
 
