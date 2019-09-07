@@ -1,8 +1,8 @@
 permalink: pretty
 markdown: rdiscount
 highlighter: pygments
-#url: http://programabrasil.org.br
-github: nucleo-digital
+#url: http://servicos.saude.ce.gov.br/diretrizes
+github: SaudeCE
 
 collections:
   - plays
