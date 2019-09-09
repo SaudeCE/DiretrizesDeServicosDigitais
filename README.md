@@ -1,11 +1,20 @@
-## Sobre este projeto
+# Diretrizes de Serviços Digitais
 
-Tradução do playbook de Serviços Digitais de Governo utilizado pela Casa Branca
+Em acordo com a Portaria No XX de XX de Setembro de 2019, o **[Comitê de Políticas Digitais e Gestão de Informações da Saúde](https://github.com/SaudeCE/ComiteDePoliticasDigitais)** deverá apresentar a proposta de um conjunto de Diretrizes para balisar as decisões estratégicas relacionadas às Políticas Digitais.
 
-## Nós queremos ouvir você
-Encorajamos que você comente e faça sugestões nesses documentos. Sugestões e discussão sobre o conteúdo e suas funcionalidades são bem-vindos através do [GitHub Issues](https://github.com/nucleo-digital/playbook-br/issues). Você pode também propor mudanças no conteúdo diretamente através de um pull request [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests").
 
-Você não precisa instalar nenhum software para sugerir uma mudança. Para propor uma mudança pelo  browser, selecione 'play' no 'plays' folder You don't need to install any software to suggest a change. To propose a change from your browser, [select a play in the `_plays` folder](https://github.com/nucleo-digital/playbook-br/tree/gh-pages/_plays "Link to the Plays Markdown files"). Você pode usar o editor do GitHub para editar pastas e enviar um "pull request" para que as suas mudanças sejam aceitas no documento.
+## Sobre este Projeto
+
+Adaptação da [tradução do playbook de Serviços Digitais de Governo](https://github.com/nucleo-digital/playbook-br) utilizado pela [Casa Branca](https://github.com/usds/playbook).
+
+
+
+## Governança Colaborativa
+Encorajamos que você comente e faça sugestões nesses documentos.
+
+Sugestões e discussão sobre o conteúdo e suas funcionalidades são bem-vindos através do [GitHub Issues](https://github.com/SaudeCE/DiretrizesDeServicosDigitais/issues). Você pode também propor mudanças no conteúdo diretamente através de um pull request [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests").
+
+Você não precisa instalar nenhum software para sugerir uma mudança. Para propor uma mudança pelo  browser, selecione 'play' no 'plays' folder You don't need to install any software to suggest a change. To propose a change from your browser, [select a play in the `_plays` folder](https://github.com/SaudeCE/DiretrizesDeServicosDigitais/tree/gh-pages/_plays "Link to the Plays Markdown files"). Você pode usar o editor do GitHub para editar pastas e enviar um "pull request" para que as suas mudanças sejam aceitas no documento.
 
 ### Testando código localmente
 
